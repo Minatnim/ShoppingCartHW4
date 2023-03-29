@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+body {
+  width: 80%;
+  margin: auto;
+}
+.binicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 100px;
+  padding: 6px;
+  margin: 10px;
+}
+.navbar {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.midnav {
+  display: flex;
+  gap: 25px;
+}
+.endnav {
+  display: flex;
+  gap: 25px;
+}
+.mycart {
+  font-size: 50px;
+  margin-left: 20px;
+}
+.container {
+  display: flex;
+}
+.boxleft {
+  width: 50%;
+  /* background-color: blanchedalmond; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.boxright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 500px;
+  height: 350px;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.cardbox {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 200px;
+  padding: 20px;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.boxggdoc {
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(
+    135deg,
+    rgba(247, 143, 24, 0.4) 0%,
+    rgba(255, 237, 148, 1) 100%
+  );
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+}
+.boxggdocgray {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+.LV {
+  border-radius: 10px;
+  width: 75px;
+  height: 30px;
+  color: gray;
+}
+.ggdocgray {
+  font-size: 2rem;
+  font-weight: 900;
+  color: gray;
+}
+.price {
+  color: lightgray;
+}
+.order {
+  font-size: 20px;
+  font-weight: 900;
+}
+.subTHB {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+.promotions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 20px 0;
+}
+.promotions input {
+  flex-grow: 1;
+  height: 100%;
+  border-radius: 5px;
+  border-color: lightgray;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+.total div {
+  font-size: 20px;
+}
+.promotions button {
+  width: 80px;
+  height: 35px;
+  background-color: white;
+  color: aquamarine;
+  border-color: aquamarine;
+  border-radius: 5px;
+}
+.ttpay {
+  color: aquamarine;
+  font-size: 50px;
+}
+.loginbtn {
+  width: 100%;
+  height: 30px;
+  background-color: aquamarine;
+  border-radius: 5px;
+  border: none;
+}
